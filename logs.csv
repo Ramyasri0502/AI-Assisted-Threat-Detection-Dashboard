@@ -1,6 +1,0 @@
-timestamp,ip,status,failed_attempts,file_access
-2026-07-01 10:00:00,192.168.1.10,Success,0,Normal
-2026-07-01 10:05:00,192.168.1.11,Failed,6,Sensitive
-2026-07-01 10:10:00,192.168.1.12,Success,1,Normal
-2026-07-01 10:15:00,192.168.1.13,Failed,8,Sensitive
-2026-07-01 10:20:00,192.168.1.14,Success,0,Normal
