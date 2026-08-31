@@ -1,17 +1,16 @@
-## SQL Task
+# React + Vite
 
-This project also includes SQL operations for storing and analyzing AI threat logs using SQLite.
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-### SQL Operations Performed
-- Created the ThreatLogs table
-- Inserted threat log records
-- Retrieved all threat logs
-- Retrieved High Threat records
-- Counted High Threat entries
-- Retrieved Safe systems
+Currently, two official plugins are available:
 
-### Technologies Used
-- Python
-- SQLite
-- Streamlit
-- GitHub# AI-Assisted-Threat-Detection-Dashboard
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the Oxlint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
