@@ -1,16 +1,113 @@
-# React + Vite
+# Security Operations Dashboard for Threat Detection and Risk Mitigation Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+The **Security Operations Dashboard for Threat Detection and Risk Mitigation Analytics** is a cybersecurity monitoring and analysis system developed as part of the **Infosys Springboard Internship**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project uses **Machine Learning and Python** to detect potential cyber threats and provides an interactive dashboard for security monitoring, threat analysis, and risk mitigation.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+### Backend
+- Python
+- FastAPI
+- Scikit-learn
+- Pandas
+- NumPy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Frontend
+- React
+- TypeScript
+- Vite
+- Axios
+
+### Machine Learning
+- Random Forest Classifier
+
+---
+
+## Project Structure
+
+```text
+AI-Assisted-Threat-Detection-Dashboard/
+
+├── backend/
+├── frontend/
+├── datasets/
+├── documentation/
+├── architecture/
+```
+
+---
+
+## Features
+
+- AI-assisted threat detection
+- Dashboard overview
+- Threat analytics
+- Active alerts
+- Incident management
+- Threat map visualization
+- AI insights
+- Reports
+- Chat assistant
+
+---
+
+## How to Run the Project
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+Backend runs at:
+
+```text
+http://127.0.0.1:8000
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs at:
+
+```text
+http://localhost:5173
+```
+
+---
+
+## Repository Contents
+
+- Source Code
+- Research Documents
+- Architecture Diagrams
+- Dataset Information
+- Machine Learning Model
+
+---
+
+## Internship
+
+Developed as part of the **Infosys Springboard Internship Project**.
+
+### Project Title
+
+**Security Operations Dashboard for Threat Detection and Risk Mitigation Analytics**
+
+---
+
+## Author
+
+**Rathikrinda Ramyasri**
